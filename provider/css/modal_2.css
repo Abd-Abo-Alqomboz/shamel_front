@@ -1,0 +1,115 @@
+/* start navbar*/
+.navbar h1{
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+margin-top: 24px;
+} 
+.cloas_icon{
+    margin-left: 30px;
+}
+.back_icon{
+    margin-right: 30px;
+}
+/* end navbar*/
+/* start content*/
+.conteniar h1{
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+color: #272265;
+text-align: center;
+margin-top: 56px;
+}
+
+p{
+    
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 25px;
+text-align: center;
+color: #606E7D;
+}
+p strong{
+    color: #000;
+}
+.num{
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+color: #272265;
+margin-right: 4px;
+}
+input[type=text]{ 
+    width: 55px;
+    height: 55px;
+    border-radius: 11px;
+    background-color:#F8F8F8; 
+    margin-right: 20px;
+    text-align: center;
+    border: none;
+    margin-top: 32px;
+}
+.input_number{
+ margin-left: 250px;
+}
+input[type=submit]{
+ width: 140px;
+height: 40px;
+border: none;
+border-radius: 22px;
+background-color: #272265;
+color: white;
+margin-left: 325px;
+margin-top: 34px;
+}
+/* start number_time*/
+.box_number{
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 120%;
+color: #B5BEC8;
+display: flex;
+margin-left: 370px;
+margin-top: 22px;
+}
+.icon_time img{
+width: 11.67px;
+height: 11.67px;
+margin-left: 10px;
+margin-top: 7px;
+}
+/* end number_time*/
+/* start confirm_cod*/
+.box_confirm_cod{
+display: flex;
+box-sizing: border-box;
+margin-left: 290px;
+margin-top: 23px;
+}
+.box_confirm_cod p {
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 120%;
+color: #B5BEC8;
+}
+.box_confirm_cod div {
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 120%;
+margin-right: 4px;
+}
+/* end confirm_cod*/
+/* end content*/
+

@@ -1,0 +1,174 @@
+
+/* start conent*/
+/* start img*/
+.img1{
+    width:  333px;
+    height: 521px ;
+    margin-left: -15px;
+}
+.close{
+    width: 32px;
+    height: 32px;
+    background-color: white;
+}
+.icon_cloas{
+    box-sizing: border-box;
+    margin-left: -325px;
+    margin-top: -460px;
+}
+/* end img*/
+/*start content*/
+/*start content_h1*/
+
+.content h1{
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+color: #272265;
+text-align: right;
+margin-top: 47px;
+margin-right: 36px;
+}
+/*end content_h1*/
+/*start content_a*/
+.content a{
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+color: #606E7D;
+}
+.box_a{
+    box-sizing: border-box;
+    padding-left: 180px;
+}
+/*end content_a*/
+/*start btn*/
+.content-btn{
+    width: 343px;
+    height: 65px;
+    border-radius: 32.5px;
+    background: rgba(39, 34, 101, 0.07);
+    margin-top: 32px;
+}
+.btn_1{
+font-family: 'SF Pro Display';
+font-style: normal;
+border: none;
+width: 162.5px;
+height: 47px;
+background: #272265;
+border-radius: 23.5px;
+color: white;
+size: 14px;
+box-sizing: border-box;
+margin-top: 9px;
+margin-left: 9px;
+
+}
+.btn_2{
+ font-family: 'SF Pro Display';
+ font-style: normal;
+ width: 162.5px;
+ height: 47px;
+ border-radius: 23.5px;
+ color:#000;
+ size: 14px;
+ border: none;
+}
+.btn_2:hover{
+    background-color:#272265 ;
+    color: white;
+}
+.btn_1:hover{
+    background-color:#ddd;
+    color: #000;
+    border: solid 1px #000;
+}
+
+/*end btn*/
+/*start form_label*/
+label{
+color: #000;
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+float: right;
+margin-top: 31px;
+margin-right: 36px;
+ }
+ /*end form_label*/
+ /*start form_input*/
+input[type=text]{
+ width: 343px;
+ height: 55px;
+ border-radius: 11px;
+ border: none;
+ background-color: #F8F8F8;
+ margin-top: 12px;
+ margin-right: 36px;
+ text-align: right;
+ padding-right: 12px;
+}
+.dropdown{
+    box-sizing: border-box;
+    margin-top: -45px;
+    margin-left: 22px;
+    background-color: none;
+    
+}
+.dropdown button{
+    
+    
+
+    
+
+}
+
+ /*end form_input*/
+/*start form_submit*/
+input[type=submit]{
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+size: 16px;
+width:278px ;
+height:55px;
+border-radius: 11px;
+border: solid 1px #000;
+background: none;
+
+}
+input[type=submit]:hover{
+background-color:#272265 ;
+color: white;
+   
+}
+/*start form_submit*/
+/*start form_box*/
+.box{
+     display:flex;
+    }
+ /*end form_box*/
+ /*start form_img*/
+.bg_img{
+margin-right: 10px;
+
+border-radius: 11px;
+width: 55px;
+height: 55px;
+background: rgba(39, 34, 101, 0.07);
+}
+.bg_img img{
+width: 24px;
+height: 26px;
+margin: 15px;
+ }
+  /*end form_img*/
+/*end content*/
+
+
+
+ 

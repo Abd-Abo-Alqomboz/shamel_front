@@ -1,0 +1,59 @@
+body{
+    background-color :#F8F8F8;
+}
+.content{
+    background-color :white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 100%;
+   height:  650px;
+    margin-top: 175px;
+    margin-bottom: 97PX;;
+   
+
+}
+
+.siedmenew{
+    width: 251px;
+    height: 604px;
+    background-color: #F8F8F8;
+    margin-top: 18px;
+}
+.LOGO{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+
+.content_btn{
+    width: 350px;
+    height: 56.49px;
+    background-color:  #F8F8F8;
+    margin-left: 55px;
+    margin-top: 34px;
+    border: 11px;
+    
+   
+}
+.btn2{
+    width: 171px;
+    height: 46px;
+    background-color: #606E7D;
+    border-radius: 11px;
+    border: none;
+    color: #fff;;
+    padding-left: 5px;
+   
+}
+.btn1{
+    width:  171px;
+    height: 46px;
+    border: none;
+    border-radius: 11px;
+    background-color: #F8F8F8;
+}
+
+.card1 h5{
+    size: 16px;
+    
+}
