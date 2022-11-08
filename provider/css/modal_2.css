@@ -58,15 +58,19 @@ input[type=text]{
 .input_number{
  margin-left: 250px;
 }
-input[type=submit]{
- width: 140px;
-height: 40px;
-border: none;
-border-radius: 22px;
-background-color: #272265;
-color: white;
-margin-left: 325px;
-margin-top: 34px;
+.btn_sub button{
+    width: 140px;
+    height: 40px;
+    border: none;
+    border-radius: 22px;
+    background-color: #272265;
+    color: white;
+    margin-left: 325;
+    margin-top: 34px;
+    text-align: center;
+}
+.btn_sub span{
+margin-left: 6px;   
 }
 /* start number_time*/
 .box_number{

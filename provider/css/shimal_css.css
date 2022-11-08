@@ -1,30 +1,66 @@
-body{
-    background-color :#F8F8F8;
-}
+
+    body {
+        margin: 0;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        text-align: left;
+       background-color: #F5F5F5;
+    }
 .content{
     background-color :white;
     border-radius: 15px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 4px 8px 0 rgba(168, 168, 168, 0.2),0 6px 20px 0 rgba(170, 169, 169, 0.19);
     width: 100%;
-   height:  650px;
-    margin-top: 175px;
-    margin-bottom: 97PX;;
-   
-
+   height:  639px;
+   margin-top: 175px;
+   margin-bottom: 97px;
+    
 }
-
 .siedmenew{
     width: 251px;
     height: 604px;
     background-color: #F8F8F8;
     margin-top: 18px;
 }
-.LOGO{
-    width: 100px;
-    height: 50px;
-    text-align: center;
+.logo{
+    margin-left: 60px;
+    margin-top: 26px;
 }
-
+.siedmenew ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    direction: rtl;
+    float: right;
+    margin-top: 24px;
+    margin-right: 12px;
+}
+.siedmenew ul a{
+    background: #FFFFFF;
+   padding: 12px;
+    width: 225px;
+    height: 50px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    float: right;
+    text-align: right;
+    font-family: 'SF Compact Display';
+   font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+   line-height: 20px;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+  color: #606E7D;
+   
+}
+.siedmenew ul li img{
+    padding-left: 8px;
+}
 .content_btn{
     width: 350px;
     height: 56.49px;
@@ -32,7 +68,7 @@ body{
     margin-left: 55px;
     margin-top: 34px;
     border: 11px;
-    
+    margin-left: 430px;
    
 }
 .btn2{
@@ -43,7 +79,7 @@ body{
     border: none;
     color: #fff;;
     padding-left: 5px;
-   
+    
 }
 .btn1{
     width:  171px;
@@ -52,8 +88,84 @@ body{
     border-radius: 11px;
     background-color: #F8F8F8;
 }
-
-.card1 h5{
-    size: 16px;
-    
-}
+form label {
+    text-align: right;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.0703846px;
+    float: right;
+    margin-right: 42px;
+    margin-top: 28px;
+    color: #000000;
+    }
+    strong{
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: right;
+        letter-spacing: 0.0703846px;
+        color: #606E7D;
+        margin-right: 4px;
+    }
+    input[type=text]{
+        width: 343px;
+        height: 56px;
+        border-radius: 11px;
+        border: none;
+        background-color: #F8F8F8;
+        margin-top: 14px;
+        text-align: right;
+        padding: 20px;
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        color:  #B5BEC8;;
+        float: right;
+        margin-right: 42px;
+    }
+    input[type=file]{
+        float: right;
+    }
+    form textarea{
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        color: #fff;
+        width: 343px ;
+        height: 176px ;
+        background-color: #F8F8F8;
+        border: none;
+        float: right;
+        margin-right: 42px;
+        text-align:right;
+        border-radius: 11px;
+        margin-top: 12px; 
+        }
+      
+        .btn_submit button{
+        float: right;
+        width:159px ;
+        height:45px ;
+        border-radius: 22.5px;
+        background-color:  #272265;
+        color: white;
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        margin-top: 64px;
+        margin-right: 42px;
+        margin-bottom: 10px;
+        }
+        .box_form_1{
+            box-sizing: border-box;
+            margin-right: -50px;
+        }
+        

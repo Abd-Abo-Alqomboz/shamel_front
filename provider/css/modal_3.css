@@ -64,6 +64,7 @@ margin-top: 6px;
     margin-right: 150px;
 
 }
+
 .icon_1{
     width: 50px;
     height: 50px;
@@ -157,7 +158,7 @@ input[type=file]{
 }
 
 input[type=checkbox]{
-    float: right;
+ 
     width: 20px;
     height: 20px;
     border-radius: 4px;
@@ -175,9 +176,11 @@ input[type=checkbox]{
     line-height: 120%;
    
     }
-
-input[type=submit]{
-    float: right;
+    .btn_submit span{
+        box-sizing: border-box;
+        margin-right: 10px;
+    }
+    .btn_submit button{
    width:142px ;
    height:45px ;
    border-radius: 22.5px;
@@ -189,7 +192,11 @@ input[type=submit]{
   font-weight: 500;
   font-size: 16px;
   margin-top: 60px;
-  float: right;
-}
+  
+
+    }
+ 
+
+
 
 

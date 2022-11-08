@@ -1,0 +1,132 @@
+nav img{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+h1{
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+text-align: right;
+color: #272265;
+margin-right: 42px;
+
+}
+p {
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+text-align: right;
+color: #606E7D;
+margin-right: 44px;
+margin-top: 8px;
+line-height: 25px;
+letter-spacing: 0.0703846px;
+
+}
+
+.icon_map_3{
+    display: flex;
+    box-sizing: border-box;
+    margin-top: 36px;
+    margin-left: 180px;
+    
+}
+.icon_map_3 h3{
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+color: #606E7D;
+box-sizing: border-box;
+text-align: center;
+margin-top: 6px;
+}
+.icon_3{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background: #272265;
+    margin-right: 150px;
+   
+   
+
+}
+.icon_2{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background: #F6F6F6;
+    margin-right: 150px;
+
+}
+.icon_1{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background: #F6F6F6;
+    margin-right: 150px;
+
+}
+
+
+.icon_1 img,.icon_2 img,.icon_3 img{
+    width: 14px;
+    height: 18px;
+    margin: 16px;
+  
+}
+.hed{
+   text-align: right;
+   margin-top: 28px;
+   margin-right: 58px;
+   font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 26px;
+text-align: right;
+letter-spacing: 0.0703846px;
+color: #606E7D;
+}
+
+.btn_submit span{
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+.btn_submit button{
+float: right;
+width:159px ;
+height:45px ;
+border-radius: 22.5px;
+background-color:  #272265;
+color: white;
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+margin-top: 64px;
+margin-right: 42px;
+margin-bottom: 10px;
+
+}
+.dropdown button{
+    width: 628px;
+    height: 55px;
+    background: #F8F8F8;
+    text-align: right;
+    color: #000;
+    direction: ltr;
+    margin-left: 50px;
+   
+}
+
+
+
+
+
+

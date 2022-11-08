@@ -3,7 +3,6 @@ nav img{
     margin-left: 30px;
 }
 h1{
-
 font-family: 'SF Pro Display';
 font-style: normal;
 font-weight: 700;
@@ -12,10 +11,8 @@ line-height: 29px;
 text-align: right;
 color: #272265;
 margin-right: 42px;
-
 }
 p {
-
 font-family: 'SF Pro Display';
 font-style: normal;
 font-weight: 500;
@@ -28,13 +25,11 @@ line-height: 25px;
 letter-spacing: 0.0703846px;
 
 }
-
 .icon_map_3{
     display: flex;
     box-sizing: border-box;
     margin-top: 36px;
-    margin-left: 180px;
-    
+    margin-left: 180px;   
 }
 .icon_map_3 h3{
 font-family: 'SF Pro Display';
@@ -51,10 +46,7 @@ margin-top: 6px;
     height: 50px;
     border-radius: 100px;
     background: #272265;
-    margin-right: 150px;
-   
-   
-
+    margin-right: 150px; 
 }
 .icon_2{
     width: 50px;
@@ -62,7 +54,6 @@ margin-top: 6px;
     border-radius: 100px;
     background: #F6F6F6;
     margin-right: 150px;
-
 }
 .icon_1{
     width: 50px;
@@ -70,15 +61,11 @@ margin-top: 6px;
     border-radius: 100px;
     background: #F6F6F6;
     margin-right: 150px;
-
 }
-
-
 .icon_1 img,.icon_2 img,.icon_3 img{
     width: 14px;
     height: 18px;
     margin: 16px;
-  
 }
 .btn_{
     width: 343px;
@@ -87,9 +74,16 @@ margin-top: 6px;
     background-color: #F8F8F8;
     margin-top: 64px;
     margin-left: 240px;
-  
 }
 .btn_2{
+    width: 171px;
+    height: 46px;
+    border: none;
+    border-radius: 11px;
+    float: right;
+    margin-top: 5px;
+}
+.btn_1{
     width: 171px;
     height: 46px;
     border: none;
@@ -97,24 +91,28 @@ margin-top: 6px;
     border-radius: 11px;
     margin-top: 5px;
     background-color:  #606E7D;
-    color: white;
- 
-
-
+    color: white;   
 }
-.btn_1{
-   
-
-    width: 171px;
-height: 46px;
-border: none;
-border-radius: 11px;
-
-float: right;
-margin-top: 5px;
+.v_map{
+    width: 315px;
+    height: 83px;
+    border-radius: 11px;
+    border: none;
+    background-color: #F8F8F8;
+    margin-top: 16px;
+    text-align: right;
+    padding: 20px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color:  #B5BEC8;
+    float: right;
+    margin-right: 42px
 }
-
-
+.v_map span{
+    margin-left: 17px;
+}
 form label {
 text-align: right;
 font-family: 'SF Pro Display';
@@ -127,17 +125,11 @@ float: right;
 margin-right: 42px;
 margin-top: 28px;
 }
-
-strong{
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 14px;
-    letter-spacing: 0.0703846px;
-   margin-right: 13px;
-   
+.mapouter{
+    margin-left: 16px;
+    margin-top: 16px;
 }
+
 input[type=text]{
     width: 315px;
     height: 56px;
@@ -151,73 +143,33 @@ input[type=text]{
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    color:  #B5BEC8;;
+    color:  #B5BEC8;
     float: right;
     margin-right: 42px;
    
 }
-.box_label{
-    margin-top: 100px;
+.btn_submit span{
+    box-sizing: border-box;
+    margin-right: 10px;
 }
-
-
-input[type=file]{
-    float: right;
-}
-
-input[type=checkbox]{
-    float: right;
-    width: 20px;
-    height: 20px;
-    border-radius: 4px;
-    background-color: #F4F4F4;
-    border: none;
-    margin-left: 5px;
-
-   
-}
-.chek{
-    font-family: 'Urbanist';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 120%;
-   
-    }
-
-input[type=submit]{
-    float: right;
-   width:142px ;
-   height:45px ;
-   border-radius: 22.5px;
-   background-color:  #272265;
-   color: white;
-   padding: 12px;
-   font-family: 'SF Pro Display';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  margin-top: 60px;
-  float: right;
-}
-form textarea{
-    
+.btn_submit button{
+float: right;
+width:159px ;
+height:45px ;
+border-radius: 22.5px;
+background-color:  #272265;
+color: white;
 font-family: 'SF Pro Display';
 font-style: normal;
 font-weight: 500;
-font-size: 14px;
-    color: #fff;
-    width: 316px ;
-    height: 134px ;
-    background-color: #F8F8F8;
-    border: none;
-    float: right;
-    margin-right: 42px;
-    text-align: center;
-    border-radius: 11px;
-    margin-top: 12px;
-    
-   
+font-size: 16px;
+margin-top: 64px;
+margin-right: 42px;
+margin-bottom: 10px;
+
+
 }
+
+
 
 

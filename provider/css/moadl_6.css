@@ -98,22 +98,15 @@ margin-top: 6px;
     margin-top: 5px;
     background-color:  #606E7D;
     color: white;
- 
-
-
+    float: right;
 }
 .btn_1{
-   
-
-    width: 171px;
+width: 171px;
 height: 46px;
 border: none;
 border-radius: 11px;
-
-float: right;
 margin-top: 5px;
 }
-
 
 form label {
 text-align: right;
@@ -128,16 +121,22 @@ margin-right: 42px;
 margin-top: 28px;
 }
 
-strong{
+select{
+
+    width: 315px;
+    height: 56px;
+    border-radius: 11px;
+    border: none;
+    background-color: #F8F8F8;
     font-family: 'SF Pro Display';
     font-style: normal;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 14px;
-    letter-spacing: 0.0703846px;
-   margin-right: 13px;
-   
+    font-weight: 500;
+    font-size: 14px;
+    direction: rtl;
+    padding: 5px;
+    margin-left: 50px;
 }
+
 input[type=text]{
     width: 315px;
     height: 56px;
@@ -151,73 +150,35 @@ input[type=text]{
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    color:  #B5BEC8;;
+    color:  #B5BEC8;
     float: right;
-    margin-right: 42px;
+   
    
 }
-.box_label{
-    margin-top: 100px;
+
+
+
+.btn_submit span{
+    box-sizing: border-box;
+    margin-right: 10px;
 }
-
-
-input[type=file]{
-    float: right;
-}
-
-input[type=checkbox]{
-    float: right;
-    width: 20px;
-    height: 20px;
-    border-radius: 4px;
-    background-color: #F4F4F4;
-    border: none;
-    margin-left: 5px;
-
-   
-}
-.chek{
-    font-family: 'Urbanist';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 120%;
-   
-    }
-
-input[type=submit]{
-    float: right;
-   width:142px ;
-   height:45px ;
-   border-radius: 22.5px;
-   background-color:  #272265;
-   color: white;
-   padding: 12px;
-   font-family: 'SF Pro Display';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  margin-top: 60px;
-  float: right;
-}
-form textarea{
-    
+.btn_submit button{
+float: right;
+width:159px ;
+height:45px ;
+border-radius: 22.5px;
+background-color:  #272265;
+color: white;
 font-family: 'SF Pro Display';
 font-style: normal;
 font-weight: 500;
-font-size: 14px;
-    color: #fff;
-    width: 316px ;
-    height: 134px ;
-    background-color: #F8F8F8;
-    border: none;
-    float: right;
-    margin-right: 42px;
-    text-align: center;
-    border-radius: 11px;
-    margin-top: 12px;
-    
-   
+font-size: 16px;
+margin-top: 64px;
+margin-right: 42px;
+margin-bottom: 10px;
+
 }
+
+
 
 
