@@ -1,0 +1,206 @@
+
+    body {
+        margin: 0;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        text-align: left;
+       background-color: #F5F5F5;
+    }
+.content{
+    background-color :white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(168, 168, 168, 0.2),0 6px 20px 0 rgba(170, 169, 169, 0.19);
+    width: 100%;
+   height:  639px;
+   margin-top: 175px;
+   margin-bottom: 97px;
+}
+.siedmenew{
+    width: 251px;
+    height: 604px;
+    background-color: #F8F8F8;
+    margin-top: 18px;
+}
+.logo{
+    margin-left: 60px;
+    margin-top: 26px;
+}
+.siedmenew ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    direction: rtl;
+    float: right;
+    margin-top: 24px;
+    margin-right: 12px;
+}
+.siedmenew ul a{
+    background: #FFFFFF;
+   padding: 12px;
+    width: 225px;
+    height: 50px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    float: right;
+    text-align: right;
+    font-family: 'SF Compact Display';
+   font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+   line-height: 20px;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+  color: #606E7D; 
+}
+.siedmenew ul li img{
+    padding-left: 8px;
+}
+.div_titel h2{
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 26px;
+text-align: right;
+letter-spacing: 0.0703846px;
+color: #272265;
+margin-top: 40px;
+}
+.div_titel p{
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 25px;
+text-align: right;
+letter-spacing: 0.0703846px;
+color: #606E7D;
+margin-right: 55px;
+
+}
+.div_titel span img{
+
+    margin-right: 56px;
+    margin-left: 8px;
+}
+.card_1{
+height: 176px;
+width: 720px;
+border-radius: 11px;
+background: #F8F8F8;
+margin-top: 10px;
+margin-left: 48px;
+}
+.card_2{
+
+height: 115px;
+width: 720px;
+border-radius: 11px;
+background: #F8F8F8;
+margin-top: 10px;
+margin-left: 48px;
+
+}
+.card_1_hed,.card_2_hed{
+   display: flex;
+}
+.card_1_hed h1{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+    letter-spacing: 0.0703846px;
+    color: #606E7D;
+    margin-top: 24px;
+    margin-left: 535px;
+}
+.card_2_hed h1{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+    letter-spacing: 0.0703846px;
+    color: #606E7D;
+    margin-top: 24px; 
+    margin-left: 480px;
+}
+.v_date{
+margin-top: 16px;
+margin-left: 16px;
+}
+.card_1_hed span img,.card_2_hed span img{
+  margin-left: 14px;
+  margin-top: -5px;
+  margin-right: 16px;
+}
+.div_button{
+    float: right;
+    margin-top: 16px;
+    margin-right: 17px;
+}
+.btn_1,.btn_3{
+    width: 104px;
+    height: 31px;
+    border-radius: 55px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+   line-height: 14px;
+   letter-spacing: 0.0703846px;
+   color: #000000;
+   border: none;
+   background-color: #F3AD39;
+   margin-left: 6px;
+}
+.btn_2,.btn_4{
+    height: 31px;
+    width: 144px;
+    border-radius: 55px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+   line-height: 14px;
+   letter-spacing: 0.0703846px;
+   color: #000000;
+   border: none;
+   margin-left: 6px;
+   background-color: #F3AD39;
+}
+.btn_4{
+    float: right;
+    margin-top: 23px;
+}
+.btn_submit{
+    width: 197px;
+    height: 45px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.0703846px;
+    color: #FFFFFF;
+    background: #272265;
+    border-radius: 100px;
+    float: right;
+    margin-right: 55px;
+    margin-top: 100px;
+}
+.btn_submit span img{
+    margin-left: 10px;
+}
+.box{
+    margin-top: 25px;
+}
+

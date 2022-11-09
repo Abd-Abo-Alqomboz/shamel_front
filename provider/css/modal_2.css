@@ -106,13 +106,14 @@ font-size: 14px;
 line-height: 120%;
 color: #B5BEC8;
 }
-.box_confirm_cod div {
+.box_confirm_cod div a {
 font-family: 'Urbanist';
 font-style: normal;
 font-weight: 700;
 font-size: 14px;
 line-height: 120%;
 margin-right: 4px;
+color: #000;
 }
 /* end confirm_cod*/
 /* end content*/
