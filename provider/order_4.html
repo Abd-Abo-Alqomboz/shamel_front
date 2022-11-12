@@ -5,68 +5,54 @@
     <title> shimal</title>
         <meta name="shimal" content="welocme website">
         <link rel="stylesheet" href="./css/order_4.css">
-
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity
-        ="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity
-        ="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-      
-       
-   
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />  </head>
+        <script src="./abd.js/shimal.js"></script>
 </head>
 <body>
     <header class="container-fluid">
           <!--  start navbar-->
          
            <!--  end navbar-->
-          
-
     </header>
     <section>
         <!--  start content-->
         <div class="container">
             <div class="content">
-               
                 <div class="row">
                     <div class="col-lg-9">
                         <!-- stat navber button-->
-
                         <div class="nav_btn">
-                            <button class="btn_1" type="submit"> الحالية</button>
-                            <button class="btn_2" type="submit"> قيد الانتظار</button>
-                            <button class="btn_3" type="submit"> قيد التنفيذ </button>
-                            <button class="btn_4" type="submit" >المكتملة </button>
+                            <button class="btn_1"  onclick="info_1()"> الحالية</button>
+                            <button class="btn_2"  onclick="info_2()"> قيد الانتظار</button>
+                            <button class="btn_3"  onclick="info_3()"> قيد التنفيذ </button>
+                            <button class="btn_4"  onclick="info_4()" >المكتملة </button>
                         </div>
                         <!-- end navber button-->
                         <!-- START Content card-->
                         <div class="box">
                             <div class="card_1">
-
                                 <div class="card_hed">
                                     <div class="v_date"> الاثنين ، 16 فبراير</div>
                                 <div><h1> ابو نواف <span><img src="./img/persone_1.svg"></span></h1></div>
                                 </div>
                                 <h2> مزايكو 2.5 سم </h2>
                                 <div class="card_boutom"> 
-                                    <div class="icon_back_left_card"><img src="./img/icon_back_left_card.svg"></div>
+                                    <div class="icon_start"> 4.5<span> <img src="./img/icon_star.svg"></span></div>
                                     <div>
                                         <button> خدمات البناء <span><img src="./img/icon_Settings.svg"></span></button>
-                                        <button ><span class="bg_icon_fiel"><img src="./img/icon_fiel.svg"></span>5264 #<span><img src="./img/icon_shaer.svg"></span></button>
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg" ><span class="bg_icon_fiel"><img src="./img/icon_fiel.svg"></span>5264 #<span><img src="./img/icon_shaer.svg"></span></button>
                                     </div>
                                 </div>
                             </div>
                             <div class="card_2">
-
                                 <div class="card_hed">
                                     <div class="v_date"> الاثنين ، 16 فبراير</div>
                                 <div><h1> ابو نواف <span><img src="./img/persone_2.svg"></span></h1></div>
                                 </div>
                                 <h2> مزايكو 2.5 سم </h2>
-
                                 <div class="card_boutom"> 
-                                    <div class="icon_back_left_card">
-                                         <img src="./img/icon_back_left_card.svg"></div>
+                                    <div class="icon_start"> 4.5<span> <img src="./img/icon_star.svg"></span></div>
                                     <div>
                                         <button> خدمات البناء <span><img src="./img/icon_Settings.svg"></span></button>
                                         <button ><span class="bg_icon_fiel"><img src="./img/icon_fiel.svg"></span>5264 #<span><img src="./img/icon_shaer.svg"></span></button>
@@ -80,7 +66,7 @@
                                 </div>
                                 <h2> مزايكو 2.5 سم </h2>
                                 <div class="card_boutom"> 
-                                    <div class="icon_back_left_card"><img src="./img/icon_back_left_card.svg"></div>
+                                    <div class="icon_start"> 4.5<span> <img src="./img/icon_star.svg"></span></div>
                                     <div>
                                         <button> خدمات البناء <span><img src="./img/icon_Settings.svg"></span></button>
                                         <button ><span class="bg_icon_fiel"><img src="./img/icon_fiel.svg"></span>5264 #<span><img src="./img/icon_shaer.svg"></span></button>
@@ -90,27 +76,89 @@
                         </div>
                          <!-- end Content card-->
                     </div>
-                    <!-- start  siedmenew -->
-
-                    <div class="siedmenew" class="col-lg-3">
+                     <!--  start siedmenew--> 
+                     <div class="siedmenew" class="col-lg-3">
                         <img class="logo" src="./img/dashboard_logo.png">
                         <ul>
-                            <li> <a href=""><span><img src="./img/icon_1.svg" alt=""></span> الملف الشخصي</a></li>
-                            <li> <a href=""> <span><img src="./img/icon_2.svg" alt=""></span> الطلبات</a></li>
-                            <li> <a href=""> <span><img src="./img/icon_3.svg" alt=""></span> خدماتي</a></li>
-                            <li> <a href=""> <span><img src="./img/icon_4.svg" alt=""></span> عناويني</a></li>
-                            <li> <a href=""> <span><img src="./img/icon_5.svg" alt=""></span> المحفظة</a></li>
-                            <li> <a href=""> <span><img src="./img/icon_6.svg" alt=""></span> الاعدادت</a></li>
+                            <li > <a href="./shamel.html"><span><img src="./img/icon_1.svg" alt=""></span> الملف الشخصي</a></li>
+                            <li> <a href="./order_1.html"> <span><img src="./img/icon_2.svg" alt=""></span> الطلبات</a></li>
+                            <li> <a href="./Services.html"> <span><img src="./img/icon_3.svg" alt=""></span> خدماتي</a></li>
+                            <li> <a href="./addresses.html"> <span><img src="./img/icon_4.svg" alt=""></span> عناويني</a></li>
+                            <li> <a href="./boeket.html"> <span><img src="./img/icon_5.svg" alt=""></span> المحفظة</a></li>
+                            <li> <a href="./seting.html"> <span><img src="./img/icon_6.svg" alt=""></span> الاعدادت</a></li>
                             <li > <a href=""> <span><img src="./img/icon_7.svg" alt=""></span> تسجيل خروج</a></li>
                         </ul>
                     </div>
-                    <!-- end  siedmenew -->
+                    <!--  end siedmenew--> 
                 </div>
             </div>
         </div>
         <!--  end  content-->
 
     </section>
+    <!-- start modal box_1-->
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="ro">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+              <div class="container">
+                  <!-- start moadl nav -->
+                  <div class="navbar">
+                      <div> 
+                         <img class="cloas_icon" src="./img/cloas.svg">
+                      </div>
+                      <h1>  تقديم عرض سعر</h1>
+                      <div> </div>
+                  </div>
+                  <hr>
+                    <!-- end moadl nav -->
+      
+                  <div class="modal-content_4">
+                      <div class="div_box_priec_1">
+                          <div class="div_moany">00.00 ر.س</div>
+                          <div><strong>:</strong>السعر المقدم</div>
+                          
+                          </div>
+                       
+                              <table class="table table-striped">
+                                  <thead>
+                                    <tr>
+                                      <th scope="col">السعر</th>
+                                      <th scope="col">الكمية</th>
+                                      <th scope="col">المقاس</th>
+                                      <th scope="col">النوع</th>
+                                      <th scope="col">المنتج</th>
+          
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                      <td>-</td>
+                                      <td>-</td>
+                                      <td>-</td>
+                                      <td>-</td>
+                                      <td>-</td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                            <div>
+                              <button class="btn_new_field"  type="submit">حقل جديد<span><img src="./img/icon_add_2.svg"></span></button>
+                            </div>
+                            <div class="div_box_priec_2">
+                              <div class="monay">00.00 ر.س</div>
+                              <div><strong>:</strong> التكلفة الاجمالية</div>
+                              </div>
+                              <hr>              
+                              <div>   
+                                  <button class="btn_sub"> إعادة الارسال</button>
+                                </div>
+                    </div >
+                  </div>
+            </div>
+          </div>
+        </div>
+
+     <!-- end modal box_1-->
+
 
     <footer>
         
@@ -119,6 +167,18 @@
           <!--  end foter-->
 
     </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Popper.JS -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+    integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+    crossorigin="anonymous"></script>
   
 </body>
 

@@ -103,6 +103,7 @@ border-radius: 11px;
 background: #F8F8F8;
 margin-top: 10px;
 margin-left: 48px;
+margin-bottom: 108px;
 
 }
 .card_1_hed,.card_2_hed{
@@ -195,12 +196,16 @@ margin-left: 16px;
     border-radius: 100px;
     float: right;
     margin-right: 55px;
-    margin-top: 100px;
+    
 }
 .btn_submit span img{
     margin-left: 10px;
 }
 .box{
     margin-top: 25px;
+}
+hr{
+    width: 90%;
+   
 }
 

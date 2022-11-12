@@ -178,4 +178,107 @@ margin-top: -20px;
 .box{
     margin-top: 29px;
 }
+/*start modal box_1*/
+.navbar h1{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.0703846px;
+    color: #272265;
+    margin-top: 24px;
+   }
+   .line_1 button{
+   font-family: 'SF Pro Display';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 19px;
+   text-align: right;
+   letter-spacing: 0.0703846px;
+   color: #606E7D;
+   border: none;
+   background: none;
+   }
+   .line_1{
+       margin-left: 580px;
+   }
+   .bg_icon_{
+       padding-right: 22px;
+   }
+   .line_1 h2,.line_2 h2,.line_3 h2,.line_4 h2,.line_5 h2{
+   font-family: 'SF Pro Display';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 17px;
+   text-align: right;
+   letter-spacing: 0.0703846px;
+   color: #606E7D;
+   margin-right: 47px;
+   }
+   .line_1 p,.line_2 p,.line_3 p,.line_4 p,.line_5 p{
+   font-family: 'SF Pro Display';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 17px;
+   text-align: right;
+   letter-spacing: 0.0703846px;
+   color: #B5BEC8;
+   margin-right: 72px;
+   }
+   .line_2 span img,.line_3 span img,.line_4 span img,.line_5 span img,.line_1 span img{
+   padding-left: 9px;
+   
+   }
+   .line_3_img{
+   box-sizing: border-box;
+    margin-left: 460px;
+   }
+   .div_btn{
+   float: right;
+    margin-right: 42px;
+    margin-top: 24px;
+    margin-bottom: 30px;
+    display: flex;
+   }
+
+   .modal_3_btn_1{
+   width: 166px;
+   height: 45px;
+   font-family: 'SF Pro Display';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 17px;
+   letter-spacing: 0.0703846px;
+   color: #FFFFFF;
+   background: #272265;
+   border: 1px solid #272265;
+   border-radius: 100px;
+   margin-right: 14px;
+   }
+   .div_btn span img{
+       padding-left: 8px;
+   }
+   .div_span_p{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.0703846px;
+     color: #606E7D;
+     margin-top: 8px;
+    
+   }
+   hr{
+    width: 90%;
+   }
+
+/*end modal box_1*/
 

@@ -67,8 +67,7 @@
     margin-left: 55px;
     margin-top: 34px;
     border: 11px;
-    margin-left: 430px;
-   
+    margin-left: 430px; 
 }
 .btn2{
     width: 171px;
@@ -146,6 +145,7 @@ form label {
         text-align:right;
         border-radius: 11px;
         margin-top: 12px; 
+        margin-bottom: 64px;
         }
       
         .btn_submit button{
@@ -159,12 +159,18 @@ form label {
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
-        margin-top: 64px;
+        margin-top: 24px;
         margin-right: 42px;
         margin-bottom: 10px;
         }
         .box_form_1{
             box-sizing: border-box;
             margin-right: -50px;
+        }
+        hr{
+         width: 90%;
+        }
+        .li_1{
+            background-color: red;
         }
         

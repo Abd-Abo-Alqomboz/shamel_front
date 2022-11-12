@@ -59,25 +59,27 @@
 .siedmenew ul li img{
     padding-left: 8px;
 }
-
 .div_bag{
     width: 113px;
     height: 89px;
-    background-color: red;
+    background-color: #FFFFFF;
     border-radius: 10px;
-    transform: translateX(290%);
-    margin-top: 18px;
-  
- 
+     margin-left: 41%;
+    margin-top: -50px;
+    position: absolute;
+
+}
+.div_bag img{
+ transform: translateX(50%);
+padding-top: 22px;
 }
 .div_content{
-    width: 595px;
+    width: 90%;
     height: 187px;
     background: #F8F8F8; 
-   transform: translateX(18%);
-
-    
-    
+  margin-left: 43px;
+   position: relative;
+   margin-top: 70px; 
 }
 .div_butoon button{
     width:218px ;
@@ -91,6 +93,250 @@
    border-radius: 100px;
    color: #FFFFFF;
    background: #272265;
-   
+   margin-top: 16px;
+   margin-left: 35%; 
+}
+.div_hed_content{
+    padding-top: 70px;
+}
+.div_hed_content h4{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.0703846px;
+    color: #000000;
+}
+.div_hed_content p{
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+text-align: center;
+letter-spacing: 0.0703846px;
+color: #000000;
+
+}
+.h1_many{
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+text-align: right;
+letter-spacing: 0.0703846px;
+color: #000000;
+margin-top: 32px;
+}
+.h1_many span img{
+    padding-left: 8px;
+}
+.line_register_1{
+    display: flex;
+    width: 750px;
+    height: 55px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: right;
+    letter-spacing: 0.0703846px;
+    color: #000000;
+    margin-top: 32px;
+}
+.div_line_monay_1{
+   margin-left: 530px;
     
 }
+.div_line_monay_1 span img{
+    padding-left: 19px;
+}
+.div_line_monay_1 p{
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+letter-spacing: 0.0703846px;
+color: #606E7D;
+margin-right: 40px;
+margin-top: 8px;
+}
+.div_line_date_1{
+ font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0.0703846px;
+color: #606E7D;
+margin-left: 8px;
+}
+
+.line_register_2{
+    display: flex;
+    width: 750px;
+    height: 55px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: right;
+    letter-spacing: 0.0703846px;
+    color: #000000;
+  
+    
+}
+.div_line_monay_2{
+   margin-left: 505px;
+    
+}
+.div_line_monay_2 span img{
+    padding-left: 19px;
+}
+.div_line_monay_2 p{
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+letter-spacing: 0.0703846px;
+color: #606E7D;
+margin-top: 8px;
+margin-right: 40px;
+
+}
+.div_line_date_2{
+ font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0.0703846px;
+color: #606E7D;
+margin-left: 8px;
+}
+/* start somal box modal*/
+.navbar h1{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.0703846px;
+    color: #272265;
+    margin-top: 24px;
+   }
+  
+  .div_bank button{
+    width: 161px;
+    height: 41px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.0703846px;
+    color: #FFFFFF;
+    background: #272265;
+    border-radius: 23.5px;
+    margin-top: 22px;
+    margin-left: 32%;
+    margin-bottom: 25px;
+  }
+  .div_bank span img{
+    padding-left: 9px;
+    margin-top: -5px;
+  }
+  form input{
+    width: 344px;
+    height: 55px;
+    border-radius: 10px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: right;
+    letter-spacing: 0.0703846px;
+    color: #B5BEC8;
+    background: #F8F8F8;
+    padding-right: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 65px;
+    border: none;
+  }
+ 
+  .div_bok_many{
+    display: flex;
+    margin-bottom: 62px;
+  }
+  .div_for_pries{
+    width: 211px;
+    height: 55px;
+    border-radius: 10px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: right;
+    letter-spacing: 0.0703846px;
+    color: #B5BEC8;
+    background: #F8F8F8;
+    padding-right: 16px;
+    margin-left: 60px;
+    margin-top: 37px;
+    padding-right: 170px;
+    padding-top: 19px;
+
+  }
+  .div_for_pries_line{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+    letter-spacing: 0.0703846px;
+    color: #000000;
+  margin-left: 75px;
+  margin-top: 53px;
+  
+  }
+  .btn_sub button {
+    width: 124px;
+    height:45px ;
+    background: #272265;
+    border: 1px solid #272265;
+    border-radius: 100px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.0703846px;
+    color: #FFFFFF;
+    float: right;
+    margin-right: 45px;
+    margin-bottom: 28px;
+    margin-top: 24px;
+   }
+   hr{
+    width: 90%;
+   }
+
+/* end somal box modal*/
+
+
+

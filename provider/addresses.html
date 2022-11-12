@@ -5,84 +5,122 @@
     <title> shimal</title>
         <meta name="shimal" content="welocme website">
         <link rel="stylesheet" href="./css/addresses.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity ="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />  </head>
 
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity
-        ="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity
-        ="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-      
-       
-   
 </head>
 <body>
     <header class="container-fluid">
           <!--  start navbar-->
          
            <!--  end navbar-->
-          
-
     </header>
     <section>
         <!--  start content-->
         <div class="container">
             <div class="content">
-               
                 <div class="row">
                     <div class="col-lg-9">
-                     
-                       
                         <!-- START Content card-->
                         <div class="box">
                             <div class="card_1">
-
                                 <div class="card_1_hed">
                                     <div class="v_date"> <img src="./img/edit.svg">  </div>
                                 <div><h1> 367 طريق العروبة، الورود، 12215 <span><img src="./img/icon_home.svg"></span></h1></div>
-                                
-                                
+
                                 </div>
                                 <div class="div_P"><p>الرياض، السعودية</p></div>
                                 <div class="div_button">
                                     <button class="btn_1">  الافتراضي</button>
-                                    
                                 </div>
                             </div>
                             <div class="card_2">
-
                                 <div class="card_2_hed">
                                     <div class="v_date"> <img src="./img/edit.svg">  </div>
                                 <div><h1> 367 طريق العروبة، الورود، 12215 <span><img src="./img/icon_bag.svg"></span></h1></div>
                                 </div>
                                 <div class="div_P"><p>الرياض، السعودية</p></div>
-                               
                             </div>
                         </div>
-                         <!-- START Content card-->
-                         <hr>
-                         <button class="btn_submit" type="submit">اضافة موقع جديد<span><img src="./img/icon_add.svg"></span></button>
-
-
+                        <hr>
+                        <button class="btn_submit"  type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">اضافة موقع جديد<span><img src="./img/icon_add.svg"></span></button>
                     </div>
-     
-                    <div class="siedmenew" class="col-lg-3">
-                        <img class="logo" src="./img/dashboard_logo.png">
-                        <ul>
-                            <li> <a href=""><span><img src="./img/icon_1.svg" alt=""></span> الملف الشخصي</a></li>
-                            <li> <a href=""> <span><img src="./img/icon_2.svg" alt=""></span> الطلبات</a></li>
-                            <li> <a href=""> <span><img src="./img/icon_3.svg" alt=""></span> خدماتي</a></li>
-                            <li> <a href=""> <span><img src="./img/icon_4.svg" alt=""></span> عناويني</a></li>
-                            <li> <a href=""> <span><img src="./img/icon_5.svg" alt=""></span> المحفظة</a></li>
-                            <li> <a href=""> <span><img src="./img/icon_6.svg" alt=""></span> الاعدادت</a></li>
-                            <li > <a href=""> <span><img src="./img/icon_7.svg" alt=""></span> تسجيل خروج</a></li>
-                        </ul>
-                    </div>
+                      <!-- end Content card-->
+                   
+
+                <!--  start siedmenew--> 
+                <div class="siedmenew" class="col-lg-3">
+                    <img class="logo" src="./img/dashboard_logo.png">
+                    <ul>
+                        <li > <a href="./shamel.html"><span><img src="./img/icon_1.svg" alt=""></span> الملف الشخصي</a></li>
+                        <li> <a href="./order_1.html"> <span><img src="./img/icon_2.svg" alt=""></span> الطلبات</a></li>
+                        <li> <a href="./Services.html"> <span><img src="./img/icon_3.svg" alt=""></span> خدماتي</a></li>
+                        <li> <a href="./addresses.html"> <span><img src="./img/icon_4.svg" alt=""></span> عناويني</a></li>
+                        <li> <a href="./boeket.html"> <span><img src="./img/icon_5.svg" alt=""></span> المحفظة</a></li>
+                        <li> <a href="./seting.html"> <span><img src="./img/icon_6.svg" alt=""></span> الاعدادت</a></li>
+                        <li > <a href=""> <span><img src="./img/icon_7.svg" alt=""></span> تسجيل خروج</a></li>
+                    </ul>
+                </div>
+                <!--  end siedmenew--> 
                 </div>
             </div>
         </div>
         <!--  end  content-->
 
     </section>
+    <!--  start smoal moadl box-->
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="ro">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+              <div class="container">
+                  <!-- start moadl nav -->
+                  <div class="navbar">
+                      <div> 
+                         <img class="cloas_icon" src="./img/cloas.svg">
+                      </div>
+                      <h1>   اضافة عنوان جديد </h1>
+                      <div class="back_icon"> <i class="fa-sharp fa-solid fa-arrow-right"></i></div>
+                  </div>
+                  <hr>
+                    <!-- end moadl nav -->
+                    <div>
+                        <div class="mapouter"><div class="gmap_canvas"><iframe width="742" height="261" id="gmap_canvas" src="https://maps.google.com/maps?q=%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/"></a><br><style>.mapouter{position:relative;text-align:right;height:261px;width:742px;}</style><a href="https://www.embedgooglemap.net"></a><style>.gmap_canvas {overflow:hidden;background:none!important;height:261px;width:742px;}</style></div></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="div_checkbox">
+                                <form>
+                                    <label> حفظ المكان لاستخدامه لاحقا </label>
+                                    <input type="checkbox" name="" >
+                                    <br>
+                                    <label class="LAB_2">  تعين كعنوان افتراضي  </label>
+                                    <input type="checkbox" name="" >
+                                </form>
+
+                            </div>
+                        
+                            
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="v_map">
+                                طريق العروبة، الورود، 12215 الرياض، السعودية <span><img src="./img/icon_map.svg"></span>
+                            </div>
+                        </div>
+                      
+                    </div>
+                    <div>
+                        <button class="btn_c_map"> تاكيد الموقع</button>
+                    </div>
+
+      
+              
+                </div>
+          </div>
+        </div>
+      </div>
+ 
+     <!--  start smoal moadl box-->
+
 
     <footer>
         
@@ -91,6 +129,17 @@
           <!--  end foter-->
 
     </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Popper.JS -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+    integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+    crossorigin="anonymous"></script>
   
 </body>
 

@@ -1,0 +1,284 @@
+
+    body {
+        margin: 0;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+
+       background-color: #F5F5F5;
+    }
+.content{
+    background-color :white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(168, 168, 168, 0.2),0 6px 20px 0 rgba(170, 169, 169, 0.19);
+    width: 100%;
+   height:  639px;
+   margin-top: 175px;
+   margin-bottom: 97px;
+}
+.siedmenew{
+    width: 251px;
+    height: 604px;
+    background-color: #F8F8F8;
+    margin-top: 18px;
+}
+.logo{
+    margin-left: 60px;
+    margin-top: 26px;
+}
+.siedmenew ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    direction: rtl;
+    float: right;
+    margin-top: 24px;
+    margin-right: 12px;
+}
+.siedmenew ul a{
+    background: #FFFFFF;
+   padding: 12px;
+    width: 225px;
+    height: 50px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    float: right;
+    text-align: right;
+    font-family: 'SF Compact Display';
+   font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+   line-height: 20px;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+  color: #606E7D; 
+}
+.siedmenew ul li img{
+    padding-left: 8px;
+}
+.nav_btn{
+    width: 600px;
+    height: 69px;
+    border-radius: 32px;
+    background: rgba(39, 34, 101, 0.07);
+    transform: translateX(22%);
+    margin-top: 40px;
+}
+.btn_4,.btn_3,.btn_2,.btn_1{
+    width: 133px;
+    height: 47px;
+    border-radius: 23.5px;
+    color: #272265;
+    font-family: 'SF Pro Display';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 19px;
+   text-align: center;
+   letter-spacing: 0.0703846px;
+   justify-content: center;
+   margin-top: 11px;
+   margin-bottom: 11px;
+   margin-right: 11px;
+   border: none;
+   float: right;
+}
+.btn_1{
+   color: #FFFFFF;
+    background: #272265;
+}
+.card_1,.card_2,.card_3{
+height: 135px;
+width: 600px;
+border-radius: 11px;
+background: #F8F8F8;
+margin-top: 10px;
+transform: translateX(22%);
+}
+.card_hed{
+    display: flex;
+}
+.card_hed h1{
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-align: right;
+letter-spacing: 0.0703846px;
+color: #606E7D;
+margin-left: 405px;
+
+}
+.v_date{
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 12px;
+letter-spacing: 0.0703846px;
+color: #606E7D;
+margin-top: 27px;
+margin-left: 20px;
+}
+.card_hed span img{
+    margin-left: 8px;
+  margin-top: 12px;
+
+}
+.card_1 h2,.card_2 h2,.card_3 h2{
+ font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+text-align: right;
+letter-spacing: 0.0703846px;
+color: #272265;
+margin-right: 68px;
+margin-top: -20px;
+}
+.card_boutom{
+    display: flex;
+    float: right;
+    margin-right: 59px;
+    margin-top: 22px;
+}
+.card_boutom button{
+    width: 92px;
+    height: 27px;
+    border-radius: 13.5px;
+    background: #EEEEEE;
+    border: none;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.0703846px;
+    color: #606E7D;
+    margin-left: 11px;     
+}
+.icon_back_left_card{
+    margin-right: 290px;
+}
+.card_boutom span img {
+    margin-left: 6px;
+}
+.bg_icon_fiel{
+    margin-right: 6px;
+}
+
+.box{
+    margin-top: 29px;
+}
+
+/* start modal box*/
+.navbar h1{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.0703846px;
+    color: #272265;
+    margin-top: 24px;
+   }
+   .line_1 button{
+   font-family: 'SF Pro Display';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 19px;
+   text-align: right;
+   letter-spacing: 0.0703846px;
+   color: #606E7D;
+   border: none;
+   background: none;
+   }
+   .line_1{
+       margin-left: 580px;
+   }
+   .bg_icon_{
+       padding-right: 22px;
+   }
+   .line_1 h2,.line_2 h2,.line_3 h2,.line_4 h2,.line_5 h2{
+   font-family: 'SF Pro Display';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 17px;
+   text-align: right;
+   letter-spacing: 0.0703846px;
+   color: #606E7D;
+   margin-right: 47px;
+   }
+   .line_1 p,.line_2 p,.line_3 p,.line_4 p,.line_5 p{
+   font-family: 'SF Pro Display';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 17px;
+   text-align: right;
+   letter-spacing: 0.0703846px;
+   color: #B5BEC8;
+   margin-right: 72px;
+   }
+   .line_2 span img,.line_3 span img,.line_4 span img,.line_5 span img,.line_1 span img{
+   padding-left: 9px;
+   
+   }
+   .line_3_img{
+   box-sizing: border-box;
+    margin-left: 460px;
+   }
+   .div_btn{
+    float: right;
+    margin-right: 42px;
+    margin-top: 24px;
+    margin-bottom: 30px;
+   }
+   .moadl_btn_1{
+   width: 166px;
+   height: 45px;
+   font-family: 'SF Pro Display';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 17px;
+   letter-spacing: 0.0703846px;
+   border: none;
+   color: #272265;
+   background: #F0F0F4;
+   border-radius: 100px;
+   }
+   .moadl_btn_2{
+   width: 166px;
+   height: 45px;
+   font-family: 'SF Pro Display';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 17px;
+   letter-spacing: 0.0703846px;
+   color: #FFFFFF;
+   background: #272265;
+   border: 1px solid #272265;
+   border-radius: 100px;
+   }
+   .div_btn span img{
+       padding-left: 8px;
+   }
+   hr{
+    width: 90%;
+   }
+
+/* end modal box*/
+
+
+
+
