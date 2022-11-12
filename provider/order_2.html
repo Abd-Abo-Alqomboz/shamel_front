@@ -106,7 +106,7 @@
                   <!-- start moadl nav -->
                   <div class="navbar">
                       <div> 
-                         <img class="cloas_icon" src="./img/cloas.svg">
+                         <img class="cloas_icon" onclick="close_2() " src="./img/cloas.svg">
                       </div>
                       <h1> تفاصيل الطلب</h1>
                       <div> </div>
@@ -164,7 +164,7 @@
                       <hr>
                       <div class="div_btn">
                           <button class="modal_2_btn_1" >   رفض الطلب<span><img src="./img/icon_cart.svg"></span></button>
-                          <button class="modal_2_btn_2" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" >  تعديل عرض سعر <span><img src="./img/icon_Edit_f.svg"></span></button>
+                          <button class="modal_2_btn_2"  type="button" data-dismiss="modal" class="logged_btn"  data-toggle="modal" data-target="#somal_modal" >  تعديل عرض سعر <span><img src="./img/icon_Edit_f.svg"></span></button>
                       </div>
                   </div >
                 </div>
@@ -173,17 +173,17 @@
             </div>
             <!-- end modal box_1-->
             <!-- start smoal modal box-->
-            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal fade" id="somal_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                   <div class="modal-content">
                     <div class="container">
                          <!-- start moadl nav -->
                       <div class="navbar">
                         <div> 
-                           <img class="cloas_icon" src="./img/cloas.svg">
+                           <img class="cloas_icon"  onclick="close_2() " src="./img/cloas.svg">
                         </div>
                         <h1>    تعديل عرض السعر</h1>
-                        <div class="back_icon"> <i class="fa-sharp fa-solid fa-arrow-right"></i></div>
+                        <div class="back_icon" onclick="bake_1"> <i class="fa-sharp fa-solid fa-arrow-right"></i></div>
                     </div>
                     <hr>
                       <!-- end moadl nav -->
@@ -219,6 +219,8 @@
                 </div>
               </div>
             <!-- end smoal modal box-->
+
+
 
 
 

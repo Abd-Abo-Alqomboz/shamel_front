@@ -106,7 +106,7 @@
                   <!-- start moadl nav -->
                   <div class="navbar">
                       <div> 
-                         <img class="cloas_icon" src="./img/cloas.svg">
+                         <img class="cloas_icon"  onclick="close_3() " src="./img/cloas.svg">
                       </div>
                       <h1> تفاصيل الطلب</h1>
                       <div> </div>
@@ -148,10 +148,8 @@
                       </div>
                       <hr>
                       <div class="div_btn">
-                          
                           <div>
-                              <button class="modal_3_btn_1" >  تأكيد اتمام الخدمة <span><img src="./img/icon_done.svg"></span></button>
-      
+                              <button class="modal_3_btn_1" type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#somal_modal_3" >  تأكيد اتمام الخدمة <span><img src="./img/icon_done.svg"></span></button>
                           </div>
                           <div class="div_span_p">
                               <p>لقد تم اكتمال التنفيذ وانتهاء جميع متطلبات الزبون بنجاح</p>
@@ -164,6 +162,42 @@
       </div>
 
      <!-- start moadl box_1-->
+      <!-- start smoal moadl box_2-->
+       <!-- Modal -->
+  <div class="modal fade" id="somal_modal_3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="container">
+             <!-- start moadl nav -->
+          <div class="navbar">
+            <div> 
+               <img class="cloas_icon" onclick="close_3()" src="./img/cloas.svg">
+            </div>
+            <h1>      تأكيد اتمام الخدمة</h1>
+            <div class="back_icon"> <i class="fa-sharp fa-solid fa-arrow-right"></i></div>
+        </div>
+        <hr>
+          <!-- end moadl nav -->
+          <div>
+            <P> يرجى ارفاق الصور  التي تثبت انتهاء الخدمة بنجاح </P>
+            <div class="div_img1">
+                <img src="./img/Rectangle 6.svg">
+                <img src="./img/Rectangle 6.svg">
+                <img src="./img/Rectangle 6.svg">
+            </div>
+            <div>
+              <button class="btn_new_field">حقل جديد<span><img src="./img/icon_add_3.svg"></span></button>
+            </div>
+            <hr>
+            <div class="btn_sub">
+              <button type="submit"> إعادة الارسال</button>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+       <!-- end somal  moadl box_2-->
 
     <footer>
         

@@ -308,4 +308,127 @@ margin-top: -20px;
        padding-left: 8px;
    }
 /* end moadl box_1*/
+/* start somal moadl box_2*/
+.navbar h1{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.0703846px;
+    color: #272265;
+    margin-top: 24px;
+   }
+   .back_icon{
+    margin-right: 32px;
+    margin-top: 12px;
+   }
+   .cloas_icon{
+    margin-left: 32px;
+    margin-top: 12px;
+   }
+   .div_box_priec_1{
+    display: flex;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-size: 14px;
+    color: #B5BEC8;
+    margin-top: 28px;
+    margin-left: 145px;
+  
+   }
+   .div_box_priec_2{
+    display: flex;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-size: 14px;
+    color: #B5BEC8;
+    margin-top: 18px;
+    margin-left: 145px;
+   }
+   .div_moany_1{
+   margin-right: 60px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    letter-spacing: 0.0703846px;
+    font-variant: small-caps;
+    padding-right: 19px;
+    color: #272265;
+  
+   }
+   .div_moany_2{
+    margin-right: 61px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    letter-spacing: 0.0703846px;
+    font-variant: small-caps;
+    padding-right: 34px;
+    color: #272265;
+    
 
+   }
+   form label{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+    letter-spacing: 0.0703846px;
+    color: #606E7D;
+    padding-left: 32px;
+
+   }
+   form input{
+    width: 251px;
+    height: 55px;
+    background: #F8F8F8;
+    border-radius: 11px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+  padding-right: 12px;
+    border: none;
+    letter-spacing: 0.0703846px;
+    color: #B5BEC8;
+    margin-left: 64px;
+    margin-top: 44px;
+    margin-bottom: 60px;
+   
+   
+   }
+  .btn_sub button {
+    width: 124px;
+    height:45px ;
+    background: #272265;
+    border: 1px solid #272265;
+    border-radius: 100px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.0703846px;
+    color: #FFFFFF;
+    float: right;
+    margin-right: 45px;
+    margin-bottom: 28px;
+   
+   }
+   hr{
+    width: 90%;
+   }
+ 
+/* end somal moadl box_2*/

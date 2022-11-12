@@ -105,7 +105,7 @@
                   <!-- start moadl nav -->
                   <div class="navbar">
                       <div> 
-                         <img class="cloas_icon" src="./img/cloas.svg">
+                         <img class="cloas_icon" onclick="close_1()" src="./img/cloas.svg">
                       </div>
                       <h1> تفاصيل الطلب</h1>
                       <div> </div>
@@ -148,7 +148,7 @@
                       <hr>
                       <div class="div_btn">
                           <button class="moadl_btn_1" >   رفض الطلب<span><img src="./img/icon_cart.svg"></span></button>
-                          <button class="moadl_btn_2" > تقديم عرض سعر<span><img src="./img/icon_diamond.svg"></span></button>
+                          <button class="moadl_btn_2" class="modal_2_btn_2"  type="button" data-dismiss="modal" class="logged_btn"  data-toggle="modal" data-target="#somal_modal_2"> تقديم عرض سعر<span><img src="./img/icon_diamond.svg"></span></button>
                       </div>
                   </div >
                 </div>
@@ -156,6 +156,83 @@
         </div>
       </div>
     <!-- end modal box_1-->
+    <!-- start  larg modal box_2-->
+    <div class="modal fade bd-example-modal-lg" id="somal_modal_2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="ro">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+              <div class="container">
+                  <!-- start moadl nav -->
+                  <div class="navbar">
+                      <div> 
+                         <img class="cloas_icon" onclick="close_1() " src="./img/cloas.svg">
+                      </div>
+                      <h1>  تقديم عرض سعر</h1>
+                      <div> </div>
+                  </div>
+                  <hr>
+                    <!-- end moadl nav -->
+      
+                  <div class="modal_content_2">
+                      <div class="div_box_priec_1">
+                          <div class="div_moany">00.00 ر.س</div>
+                          <div><strong>:</strong>السعر المقدم</div>
+                          </div>
+                              <table class="table table-striped">
+                                  <thead>
+                                    <tr>
+                                      <th scope="col">السعر</th>
+                                      <th scope="col">الكمية</th>
+                                      <th scope="col">المقاس</th>
+                                      <th scope="col">النوع</th>
+                                      <th scope="col">المنتج</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                      <td>30</td>
+                                      <td>3</td>
+                                      <td>12 سم</td>
+                                      <td>جوال</td>
+                                      <td>كفرات</td>
+                                    </tr>
+                                    <tr>
+                                      <td>30</td>
+                                      <td>3</td>
+                                      <td>12 سم</td>
+                                      <td>جوال</td>
+                                      <td>كفرات</td>
+                                    </tr>
+                                    <tr>
+                                      <td>30</td>
+                                      <td>3</td>
+                                      <td>12 سم</td>
+                                      <td>جوال</td>
+                                      <td>كفرات</td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+      
+                            <div>
+                              <button class="btn_new_field">حقل جديد<span><img src="./img/icon_add_2.svg"></span></button>
+                            </div>
+                            <div class="div_box_priec_2">
+                              <div class="monay">00.00 ر.س</div>
+                              <div><strong>:</strong> التكلفة الاجمالية</div>
+                              </div>
+                              <hr>
+                              <div> 
+                                  <button class="btn_sub"> إعادة الارسال</button>
+                              </div>
+      
+                  </div >
+                </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- end  larg modal box_2-->
+
+
     
     <footer>
         

@@ -279,6 +279,112 @@ margin-top: -20px;
 
 /* end modal box*/
 
+/* start larg modal box_2*/
+.navbar h1{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.0703846px;
+    color: #272265;
+    margin-top: 24px;
+   }
+   .div_box_priec_1{
+    display: flex;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-size: 14px;
+    color: #B5BEC8;
+    margin-top: 30px;
+    margin-bottom: 47px;
+   float: right;
+   margin-right: 42px;
+   }
+   .div_box_priec_2{
+    display: flex;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-size: 14px;
+    color: #B5BEC8;
+    margin-top: 47px;
+   margin-left: 565px;
+   }
+   .div_moany{
+    padding-left: 19px;
+    padding-right: 19px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    letter-spacing: 0.0703846px;
+    font-variant: small-caps;
+    padding-right: 19px;
+    color: #272265;
+   }
+   .monay{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    letter-spacing: 0.0703846px;
+    font-variant: small-caps;
+    padding-right: 19px;
+    color: #272265;
+   }
+   .btn_new_field{
+    width: 123px;
+    height: 40px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.0703846px;
+    color: #272265;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.12);
+    border-radius: 20px;
+    margin-left: 600px;
+    margin-top: 73px;
+    margin-right: 45px;
+   }
+   .btn_new_field span img{
+    padding-left: 8px;
+   }
+   .btn_sub{
+    width: 124px;
+    height: 45px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.0703846px;
+    color: #FFFFFF;
+    background: #272265;
+    border: 1px solid #272265;
+    border-radius: 100px;
+   margin-left: 600px;
+   margin-top: 25px;
+   margin-bottom: 25px;
+
+   }
+   hr{
+    width: 90%;
+   }
+   /* end larg modal box_2*/
+
+ 
+
+
+
+
 
 
 

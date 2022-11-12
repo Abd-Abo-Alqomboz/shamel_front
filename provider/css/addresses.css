@@ -186,9 +186,7 @@
  
     margin-top: 12px;
    }
-   .mapouter{
-    margin-left: 8px;
-   }
+  
    .v_map{
     width: 343px;
     height: 83px;
@@ -255,4 +253,102 @@ form input{
     margin-left: 27px;
 }
 /* end box moad_1*/
+/* start modal box_2*/
+.input_location input{
+    width: 343px;
+    height: 55px;
+    background: #F8F8F8;
+    border-radius: 10px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: right;
+    letter-spacing: 0.0703846px;
+    color: #B5BEC8;
+    padding-right: 27px;
+    border: none;
+    margin-top: 30px;
+}
+.div_btn_adr h3{
+    
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 23px;
+text-align: right;
+letter-spacing: 0.0703846px;
+color: #606E7D;
+margin-top: 20px;
+margin-right: 16px;
+
+}
+.div_btn_adr{
+    margin-right: 16px;
+}
+.div_btn_adr button{
+    width: 116px;
+    height: 40px;
+    background: #F8F8F8;
+    border-radius: 22px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 0.0703846px;
+    color: #B5BEC8;
+    border: none;
+    float: right;
+    margin-top: 14px;
+    margin-left: 9px;
+
+}
+.div_btn_adr span img{
+    padding-left: 9px;
+}
+.adr_btn_1{
+    width: 166.5px;
+    height:55px ;
+    background: #272265;
+    border-radius: 10px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.0703846px;
+    color: #FFFFFF;
+    margin-top: 57px;
+    margin-bottom: 31px;
+    margin-right: 9px;
+   
+}
+.adr_btn_2{
+    width: 166.5px;
+    height:55px ;
+    background: none;
+    border-radius: 10px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.0703846px;
+    color: #000;
+    margin-top: 57px;
+    margin-bottom: 31px;
+
+}
+.mapouter{
+    margin-left: 8px;
+    margin-top: 16px;
+}
+/* start modal box_2*/
+
+
 
