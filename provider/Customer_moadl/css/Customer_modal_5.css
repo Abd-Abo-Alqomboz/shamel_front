@@ -1,0 +1,144 @@
+/* start somal box modal*/
+.navbar h1{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.0703846px;
+    color: #272265;
+    margin-top: 24px;
+   }
+   .div_bank{
+    width: 360px;
+    height: 65px;
+    background: rgba(39, 34, 101, 0.07);
+    border-radius: 32.5px;
+    margin-left: 55px;
+    margin-top: 18px;
+    margin-bottom: 40px;
+
+   }
+  
+  .div_bank_btn_1{
+    width: 161px;
+    height: 41px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.0703846px;
+    color: #FFFFFF;
+    background: #272265;
+    border-radius: 23.5px;
+    margin-left: 16px;
+    margin-top: 8px;
+   
+    
+ 
+  }
+  .div_bank_btn_2{
+    width: 161px;
+    height: 41px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.0703846px;
+    color: #272265;
+    border-radius: 23.5px;
+    border: none;
+    margin-top: 8px;
+ 
+  }
+  .div_bank span img{
+    padding-left: 9px;
+    margin-top: -5px;
+  }
+  form input{
+    width: 344px;
+    height: 55px;
+    border-radius: 10px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: right;
+    letter-spacing: 0.0703846px;
+    color: #B5BEC8;
+    background: #F8F8F8;
+    padding-right: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 65px;
+    border: none;
+  }
+ 
+  .div_bok_many{
+    display: flex;
+    margin-bottom: 62px;
+  }
+  .div_for_pries{
+    width: 211px;
+    height: 55px;
+    border-radius: 10px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: right;
+    letter-spacing: 0.0703846px;
+    color: #B5BEC8;
+    background: #F8F8F8;
+    padding-right: 16px;
+    margin-left: 60px;
+    margin-top: 24px;
+    padding-right: 170px;
+    padding-top: 19px;
+
+  }
+  .div_for_pries_line{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+    letter-spacing: 0.0703846px;
+    color: #000000;
+  margin-left: 75px;
+  margin-top: 43px;
+  
+  }
+  .btn_sub button {
+    width: 343px;
+    height:55px ;
+    background: #272265;
+    border: 1px solid #272265;
+    border-radius: 11px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.0703846px;
+    color: #FFFFFF;
+   margin-left: 55px;
+    margin-bottom: 28px;
+
+   }
+   hr{
+    width: 90%;
+   }
+
+/* end somal box modal*/
+
+
+

@@ -1,0 +1,140 @@
+.navbar h1{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.0703846px;
+    color: #272265;
+    margin-top: 24px;
+   }
+   .img_for_logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-left: 360px;
+   }
+   .img_for_logo img{
+    padding: 10px;
+   }
+   .content_hed h2{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.0703846px;
+    color: #606E7D;
+
+   }
+   .content_hed_buton{
+    display: flex;
+    margin-left: 300px;
+    margin-top: 16px;
+    margin-bottom: 30px;
+   }
+   .div_date_1{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: right;
+    letter-spacing: 0.0703846px;
+    color: #606E7D;
+    margin-top: 8px;
+
+   }
+   .div_butoon_servies{
+    width: 92px;
+    height: 27px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.0703846px;
+    color: #606E7D;
+    background: #F8F8F8;
+    border-radius: 13.5px;
+    margin-left: 44px;
+   padding-top: 7px;
+   padding-left: 15px;
+
+   }
+   .table{
+    margin-left: 45px;
+   }
+   .content_reight,.content_reight_2{
+    display: flex;
+
+   }
+   
+   .content_reight h4,.content_reight_2 h4{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+    letter-spacing: 0.0703846px;
+    color: #B5BEC8;
+    margin-left: 120px;
+
+   }
+   .div_content_p p{
+    
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+    letter-spacing: 0.0703846px;
+    color: #606E7D;
+    margin-left: 102px;
+    
+
+   }
+   .div_content_p_2 p{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+    letter-spacing: 0.0703846px;
+    color: #606E7D;
+    margin-left: 135px;
+
+   }
+   .content_reight span img,.content_reight_3 span img,.content_reight_2 span img{
+    padding-left: 9px;
+   }
+   .content_reight_3 h4{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+    letter-spacing: 0.0703846px;
+    color: #606E7D;
+    margin-left: 102px;
+   
+   
+   }
+   .div_content_p_3 p{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: right;
+    letter-spacing: 0.0703846px;
+    color: #606E7D;
+   }
+   

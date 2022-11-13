@@ -1,0 +1,68 @@
+.navbar h1{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.0703846px;
+    color: #272265;
+    margin-top: 24px;
+   }
+   .img_for_logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-left: 360px;
+   }
+   .img_for_logo img{
+    padding: 10px;
+   }
+   .content_hed h2{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.0703846px;
+    color: #606E7D;
+   }
+   form input[type=text]{
+    width: 698px;
+    height: 113px;
+    background: #F8F8F8;
+    border-radius: 10px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: right;
+    letter-spacing: 0.0703846px;
+    color: #B5BEC8;
+    padding-right: 18px;
+    border: none;
+    margin-left: 34px;
+   }
+   form input[type=submit]{
+    width: 170px;
+    height: 55px;
+    background: #272265;
+    border-radius: 10px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.0703846px;
+    color: #FFFFFF;
+    margin-top: 26px;
+    float: right;
+    margin-right: 34px;
+    margin-bottom: 25px;
+
+   }
+   
